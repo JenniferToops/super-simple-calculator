@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://imgur.com/vWnmhGA.jpg");
+}
+
+form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+option {
+    width: 20px;
+    height: 20px;
+}
+
+select, option {
+    background-color: rgb(163, 191, 245);
+}
+
+select, input {
+    border: 3px solid black;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+input[placeholder] {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: rgb(245, 163, 245);
+}
+
+button {
+    border: 3px solid black;
+    background-color: rgb(87, 47, 218);
+    font-weight: bold;
+}
+
+h1 {
+    height: 50px;
+    width: 200px;
+    font-size: 1.75rem;
+    border: 3px solid black;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin: 20px auto;
+}
+h2 {
+    height: 150px;
+    width: 200px;
+    font-size: 3rem;
+    border: 5px solid black;
+    border-radius: 30%;
+    background: radial-gradient(#e66465, #9198e5);
+    text-align: center;
+    padding-top: 70px;
+    margin: 50px auto;
+    transform: 
+}
+
+/* #answer {
+    display: none;
+} */
+
+

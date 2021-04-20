@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Super Simple Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+        <main>
+            <!-- container start-->
+            <div class="container">
+
+                <!-- form start-->
+               <form action="#">
+                <!-- input #1 -->
+                <input type="number" class="num1" placeholder="enter a number">
+                <!-- operator dropdown -->
+                <select type="button" value="operator" id="operator">
+                    <option name="add" class = "add">+</option>
+                    <option name="subtract" class = "subtract">-</option>
+                    <option name="multiply" class = "multiply">*</option>
+                    <option name="divide" class = "divide">/</option>
+                 <!-- input #2 -->
+                <input type="number" class="num2" placeholder="enter a number">
+                <!-- clear button -->
+                <button id="clear">CLEAR</button>
+               </form>
+               <!-- form end -->
+               <!-- section with calculate and answer fields -->
+               <section>
+                <h1 id="calculate">CALCULATE</h1>
+                <h2 id="answer" class="fade-in"></h1>
+               </section>
+               <!-- end section -->
+            <!-- end container -->
+            </div>
+
+        </main>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
