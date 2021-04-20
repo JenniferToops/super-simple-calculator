@@ -18,8 +18,8 @@ function assignOperator() {
 document.querySelector('#calculate').addEventListener('click', calculateTotal);
 
 function calculateTotal() {
-   const number1 = parseInt(document.querySelector('.num1').value);
-   const number2 = parseInt(document.querySelector('.num2').value);
+   const number1 = Number(document.querySelector('.num1').value);
+   const number2 = Number(document.querySelector('.num2').value);
    if (operator == "+") {
       let addition = number1 + number2;
       document.querySelector('#answer').innerText = addition;
